@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Jared Coughlin</title>
-    <link>https://jcoughlin11.github.io/about/</link>
+    <link>jcoughlin11.github.io/about/</link>
     <description>Recent content in Abouts on Jared Coughlin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Mon, 01 Jun 2020 16:56:08 -0500</lastBuildDate>
     
-	<atom:link href="https://jcoughlin11.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="jcoughlin11.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://jcoughlin11.github.io/about/about/</link>
+      <link>jcoughlin11.github.io/about/about/</link>
       <pubDate>Mon, 01 Jun 2020 16:56:08 -0500</pubDate>
       
-      <guid>https://jcoughlin11.github.io/about/about/</guid>
+      <guid>jcoughlin11.github.io/about/about/</guid>
       <description>Hello! Thanks for stopping by! I&amp;rsquo;m currently a postdoctoral researcher at the NCSA , which is a part of the University of Illinois at Urbana-Champaign . I work in the DXL group on the open-source data analysis and visualization code yt .
 I received my PhD in physics from the University of Notre Dame , where I used cosmological simulations to study dark energy , the structure of the cosmic web , and the Lyman $\alpha$ Forest under Dr.</description>
     </item>
