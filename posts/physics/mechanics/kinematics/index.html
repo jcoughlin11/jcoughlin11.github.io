@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c"><meta itemprop="name" content="Kinematics">
+<meta itemprop="description" content="The Observation Let&rsquo;s say that, for whatever reason, you decide to stand on a very tall (but totally safe) ladder, drop a ball, and time how long the ball takes to hit the ground. Jotting down this height in meters and time in seconds, you climb to another rung on the ladder and repeat the process a couple of more times. After ten such drops, you&rsquo;ll have a data table that looks something like this (give or take, given your reaction time)">
+<meta itemprop="datePublished" content="2020-06-01T13:52:47-05:00" />
+<meta itemprop="dateModified" content="2020-06-01T13:52:47-05:00" />
+<meta itemprop="wordCount" content="1045">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta property="og:title" content="Kinematics" />
+<meta property="og:description" content="The Observation Let&rsquo;s say that, for whatever reason, you decide to stand on a very tall (but totally safe) ladder, drop a ball, and time how long the ball takes to hit the ground. Jotting down this height in meters and time in seconds, you climb to another rung on the ladder and repeat the process a couple of more times. After ten such drops, you&rsquo;ll have a data table that looks something like this (give or take, given your reaction time)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jcoughlin11.github.io/posts/physics/mechanics/kinematics/" />
+<meta property="article:published_time" content="2020-06-01T13:52:47-05:00" />
+<meta property="article:modified_time" content="2020-06-01T13:52:47-05:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Kinematics"/>
+<meta name="twitter:description" content="The Observation Let&rsquo;s say that, for whatever reason, you decide to stand on a very tall (but totally safe) ladder, drop a ball, and time how long the ball takes to hit the ground. Jotting down this height in meters and time in seconds, you climb to another rung on the ladder and repeat the process a couple of more times. After ten such drops, you&rsquo;ll have a data table that looks something like this (give or take, given your reaction time)"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Kinematics</title>
+	<link rel="stylesheet" href="https://jcoughlin11.github.io/css/style.min.79a2f9b69beac156192e776d43670049e14c766bb5c5a46244eb86a9298bc5d3.css" integrity="sha256-eaL5tpvqwVYZLndtQ2cASeFMdmu1xaRiROuGqSmLxdM=">
+	
+</head>
+
+<body id="page">
+	
+<header id="site-header" class="animated slideInUp faster">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/atom-one-dark-reasonable.min.css">
+    
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+    <div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://jcoughlin11.github.io">Jared Coughlin</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					<a href="https://jcoughlin11.github.io/posts/">Posts</a>
+					<a href="https://jcoughlin11.github.io/about/about/">About</a>
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://github.com/jcoughlin11" target="_blank" rel="noopener" title="Github"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://orcid.org/0000-0002-4373-4114" target="_blank" rel="noopener" title="Orcid"><i class="ai ai-orcid"></i></a><a href="https://twitter.com/timid_penguin" target="_blank" rel="noopener" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://jcoughlin11.github.io/posts/">Posts</a></li>
+			<li><a href="https://jcoughlin11.github.io/about/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner thin animated fadeIn faster">
+		<h1>Kinematics</h1>
+		<div class="content">
+			<h2 id="the-observation">The Observation</h2>
+<p>Let&rsquo;s say that, for whatever reason, you decide to stand on a very tall (but totally safe) ladder, drop a ball, and time how long the ball takes to hit the ground. Jotting down this height in meters and time in seconds, you climb to another rung on the ladder and repeat the process a couple of more times. After ten such drops, you&rsquo;ll have a data table that looks something like this (give or take, given your reaction time)</p>
+<table>
+<thead>
+<tr>
+<th>Height (m)</th>
+<th>Time (s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0.45</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0.64</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0.78</td>
+</tr>
+<tr>
+<td>4</td>
+<td>0.90</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1.01</td>
+</tr>
+<tr>
+<td>6</td>
+<td>1.11</td>
+</tr>
+<tr>
+<td>7</td>
+<td>1.20</td>
+</tr>
+<tr>
+<td>8</td>
+<td>1.28</td>
+</tr>
+<tr>
+<td>9</td>
+<td>1.36</td>
+</tr>
+<tr>
+<td>10</td>
+<td>1.43</td>
+</tr>
+</tbody>
+</table>
+<p>Plotting these data, you get 
+  <img src="/static/physics/kinematics/y_vs_t.png" alt="Drop Height vs. Fall Time">
+
+</p>
+<p>What is this plot telling us? Well, the first thing we notice is that as we increase the height at which we drop the ball, the longer it takes to hit the ground. That makes sense. But, notice that the plot has a slight curve in it. That is, <strong>the amount of time the ball takes to hit the ground does not increase by a constant amount every time we increase the starting height by one meter</strong>.</p>
+<p>That&rsquo;s interesting.</p>
+<p>Another way of saying that is that <strong>the relationship between drop height and fall time is not linear</strong>, since lines don&rsquo;t have curves in them.</p>
+<p>Ok, cool. Now what?</p>
+<p>Well, the goal of physics is to take some observed phenomenon and describe it mathematically. If the description works (i.e., matches the observational data), then we can then try and interpret the description to attempt to understand what nature is actually doing; that is, find out why the description works.</p>
+<h2 id="the-description">The Description</h2>
+<p>Since we know that the relationship we&rsquo;re trying to describe is not linear, it makes sense to start with the next most complicated relationship, which is a <a href="https://en.wikipedia.org/wiki/Quadratic_function" target="_blank">quadratic</a>
+
+</p>
+<p>$$ h(t) = At^2 + Bt + C $$</p>
+<p>where <code>$t$</code> is the time the ball takes to fall, <code>$h$</code> is the distance the ball falls, and <code>$A$</code>, <code>$B$</code>, and <code>$C$</code> are constants that we need to determine.</p>
+<p>The first thing we can do is notice that if <code>$t=0$</code>, that is, before we&rsquo;ve even dropped the ball at all, then we get that</p>
+<p>$$ h(0) = C $$</p>
+<p>How can we interpret this? Well, if no time passes, then the ball hasn&rsquo;t fallen, so this seems to suggest that <code>$h(0)=C=h_0$</code>, where <code>$h_0$</code> is the height we&rsquo;re holding the ball at before we drop it. That makes sense.</p>
+<p>Now how do we determine <code>$A$</code> and <code>$B$</code>? To answer that question, we&rsquo;re going to make use of a mathematical tool called the <a href="https://jcoughlin11.github.io/posts/math/calculus/derivative/">derivative</a>
+
+, which tells us how quickly something changes with respect to something else. In this case it tells us how the distance the ball falls changes with each passing second that it&rsquo;s in the air. It describes the curve of our plot, in other words, which seems like a useful thing to know. Taking the derivative gives us</p>
+<p>$$ h' \equiv \frac{dh}{dt} = 2At + B $$</p>
+<p>Where the triple horizontal lines is math-speak for &ldquo;is defined as&rdquo;. If we do the same trick as before and plug in <code>$t=0$</code>, we get that</p>
+<p>$$ h'(0) = B $$</p>
+<p>What, pray tell, are we supposed to make of this? It helps if we write it out as</p>
+<p>$$ \left . \frac{dh}{dt} \right | _{t=0} = B $$</p>
+<p>and remember that <code>$h$</code> and <code>$t$</code> are both physical quantities with units attached to them. In this case, the units of <code>$h$</code> are meters and the units of <code>$t$</code> are seconds, so we get meters per second, or, more usefully, distance per time. What physical quantity has those units?</p>
+<p>Speed, of course!</p>
+<p>This makes sense when you think about it. The derivative measures how one quantity changes with respect to something else, and what is speed other than how the quantity of distance changes with the quantity of time? After all, if you cover a great deal of distance in one second, we say that you are moving quickly. If you cover very little distance in one second, we say you are moving very slowly. So, we have that <code>$B = v_0$</code>, which is the speed the ball has when it&rsquo;s dropped, aka the initial speed.</p>
+<p>Well, the derivative trick has worked well so far, so let&rsquo;s apply it again in order to figure out what <code>$A$</code> is. Taking the derivative of <code>$h'$</code> gives</p>
+<p>$$ h'' \equiv \frac{d}{dt}\frac{dh}{dt} = 2A $$</p>
+<p>Huh. Apparently whatever <code>$A$</code> is, it&rsquo;s a constant, completely independent of time. That&rsquo;s kind of cool. But what is it?</p>
+<p>Applying what we learned above about the derivative of distance with respect to time being equal to the speed, we are now asking, &ldquo;what is the derivative of speed with respect to time?&rdquo; That is, how is the ball&rsquo;s speed changing with each passing second that it&rsquo;s falling? From watching the ball, we know that it speeds up as it falls. In other words, it&rsquo;s <strong>accelerating</strong>, and, since it&rsquo;s a constant, we say that the ball is accelerating at a constant rate, which we&rsquo;ll call <code>$a_0$</code>, since we don&rsquo;t know it&rsquo;s numerical value, yet,</p>
+<p>$$  \frac{d}{dt}\frac{dh}{dt} \equiv a(t) = a_0 \equiv 2A \rightarrow A = \frac{a_0}{2}$$</p>
+<p>So, putting it all together we get</p>
+<p>$$ h(t) = \frac{1}{2}a_0 t^2 + v_0 t + h_0 $$</p>
+<p>Cool. Now, how do we get <code>$a_0$</code>? Well, let&rsquo;s use our data. We recorded the initial heights, we measured the times, we know that the final height <code>$h(t)$</code> is just zero, which corresponds to the ground, and we know the ball&rsquo;s initial speed is zero. This tells us that</p>
+<p>$$ a_0 = - \frac{2h_0}{t^2} \approx -9.8 \phantom{a}\mathrm{m/s} $$</p>
+<h2 id="the-check">The Check</h2>
+<p>The above is all well and good, but the only thing that really matters is whether or not the description we&rsquo;ve come up with matches the oberservations. If it doesn&rsquo;t, then it doesn&rsquo;t matter how elegant or nice the description is. So, let&rsquo;s check it! We&rsquo;ll do this by plotting what our description predicts on top of the plot of our data 
+  <img src="/static/physics/kinematics/prediction.png" alt="Check">
+
+</p>
+<p>That is pretty good, if I don&rsquo;t say so myself.</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>So, what have we learned?</p>
+<ul>
+<li>Objects fall with a constant acceleration</li>
+<li>The derivative of position with respect to time is speed</li>
+<li>The derivative of speed with respect to time is acceleration</li>
+</ul>
+
+		</div>
+	</main>
+
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+  
+	<p>&copy; 2020 <a href="https://jcoughlin11.github.io">Jared Coughlin</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+	<p>
+		Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; <a href="https://github.com/wfondrie/recluse" target="_blank" rel="noopener">Recluse</a> Theme &#183; <a href="https://jcoughlin11.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+	</p>
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/r.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    <script src="//yihui.name/js/math-code.js"></script>
+    <script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+</footer>
+
+
+	<script src="https://jcoughlin11.github.io/js/main.min.4acd331997be4b64e30f47c568e49ba9ad887432eb559fcd232d73a3860134c5.js" integrity="sha256-Ss0zGZe+S2TjD0fFaOSbqa2IdDLrVZ/NIy1zo4YBNMU="></script>
+
+</body>
+
+</html>

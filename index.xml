@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 01 Jun 2020 16:56:08 -0500</lastBuildDate><atom:link href="https://jcoughlin11.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jul 2020 02:27:32 -0500</lastBuildDate><atom:link href="https://jcoughlin11.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kinematics</title>
+      <link>https://jcoughlin11.github.io/posts/physics/mechanics/kinematics/</link>
+      <pubDate>Mon, 01 Jun 2020 13:52:47 -0500</pubDate>
+      
+      <guid>https://jcoughlin11.github.io/posts/physics/mechanics/kinematics/</guid>
+      <description>The Observation Let&amp;rsquo;s say that, for whatever reason, you decide to stand on a very tall (but totally safe) ladder, drop a ball, and time how long the ball takes to hit the ground. Jotting down this height in meters and time in seconds, you climb to another rung on the ladder and repeat the process a couple of more times. After ten such drops, you&amp;rsquo;ll have a data table that looks something like this (give or take, given your reaction time)</description>
+    </item>
+    
+    <item>
+      <title>The Derivative</title>
+      <link>https://jcoughlin11.github.io/posts/math/calculus/derivative/</link>
+      <pubDate>Mon, 01 Jun 2020 13:52:47 -0500</pubDate>
+      
+      <guid>https://jcoughlin11.github.io/posts/math/calculus/derivative/</guid>
+      <description>Slope Let&amp;rsquo;s plot $y(x) = x$ Awesome.
+That done, let&amp;rsquo;s figure out what the slope of that function is. This provides us with a measure of how steep the line is. Put another way, we&amp;rsquo;re asking, &amp;ldquo;how quickly is $y$ changing when $x$ changes?&amp;rdquo;
+We see that we can answer that question by noting that every time we increase $x$ by one unit, $y$ also increases by one unit. This suggests that a natural way to define the slope $s$ is as the rise (i.</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://jcoughlin11.github.io/about/about/</link>
