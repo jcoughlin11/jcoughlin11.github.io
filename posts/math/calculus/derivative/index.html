@@ -12,7 +12,7 @@ That done, let&rsquo;s figure out what the slope of that function is. This provi
 We see that we can answer that question by noting that every time we increase $x$ by one unit, $y$ also increases by one unit. This suggests that a natural way to define the slope $s$ is as the rise (i.">
 <meta itemprop="datePublished" content="2020-06-01T13:52:47-05:00" />
 <meta itemprop="dateModified" content="2020-06-01T13:52:47-05:00" />
-<meta itemprop="wordCount" content="205">
+<meta itemprop="wordCount" content="475">
 
 
 
@@ -94,7 +94,14 @@ We see that we can answer that question by noting that every time we increase $x
 <p>So, the line has a slope, or steepness, of one.</p>
 <p>Wonderful.</p>
 <h2 id="slope-of-a-curve">Slope of a Curve</h2>
-<p>Ok, finding the slope of a line is all well and good, but what about functions that have curves in them, e.g., <code>$y(x) = x^2$</code>?</p>
+<p>Ok, finding the slope of a line is all well and good, but what about functions that have curves in them, e.g., <code>$y(x) = x^2$</code>? 
+  <img src="/static/math/calculus/parabola.png" alt="Parabola Slope">
+
+</p>
+<p>For a function with curves in it, we see that the slope is different at every point! This notion seems to imply that what we need is, in fact, <strong>another function</strong>; one whose input is the point on the original curve that we want to know the steepness for and whose output is the steepness of the curve at that point. Of course, it&rsquo;s all well and good to say things like this, but, how to actually figure out what that function is?</p>
+<p>Well, for starters, let&rsquo;s look at what we did for finding the slope of a line: we calculated <code>$\Delta y$</code>, then <code>$\Delta x$</code>, and then divided those two quantities (rise divided by run). Ok. For a line, it didn&rsquo;t matter what <code>$\Delta x$</code> was (with the understanding that <code>$\Delta y = y(x_\mathrm{final}) - y(x_\mathrm{initial})$</code>). That is, our range between <code>$x_\mathrm{final}$</code> and <code>$x_\mathrm{initial}$</code> could be as large or as small as we wanted because the steepness of the line was the same everywhere. Here, however, as noted above, the steepness is constantly changing.</p>
+<p>This seems to suggest that, in order to determine how steep the function is at a particular point, we need to include that point in our <code>$\Delta x$</code>. But where should we put the endpoints of the range? That is, how wide should <code>$\Delta x$</code> be?</p>
+<p>To try and answer that queestion, let&rsquo;s look at a couple of ranges and see what they give us. For this example, let&rsquo;s say we want to know how steep our parabola is at <code>$x=5$</code>. This means we need to include that point in our range. Let&rsquo;s first try</p>
 
 		</div>
 	</main>
