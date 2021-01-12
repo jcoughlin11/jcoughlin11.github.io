@@ -18,17 +18,6 @@
     </item>
     
     <item>
-      <title>The Derivative</title>
-      <link>https://jcoughlin11.github.io/posts/math/calculus/derivative/</link>
-      <pubDate>Mon, 01 Jun 2020 13:52:47 -0500</pubDate>
-      
-      <guid>https://jcoughlin11.github.io/posts/math/calculus/derivative/</guid>
-      <description>Slope Let&amp;rsquo;s plot $y(x) = x$ Awesome.
-That done, let&amp;rsquo;s figure out what the slope of that function is. This provides us with a measure of how steep the line is. Put another way, we&amp;rsquo;re asking, &amp;ldquo;how quickly is $y$ changing when $x$ changes?&amp;rdquo;
-We see that we can answer that question by noting that every time we increase $x$ by one unit, $y$ also increases by one unit. This suggests that a natural way to define the slope $s$ is as the rise (i.</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>https://jcoughlin11.github.io/about/about/</link>
       <pubDate>Mon, 01 Jun 2020 16:56:08 -0500</pubDate>
