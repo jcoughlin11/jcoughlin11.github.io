@@ -9,7 +9,7 @@
 	<meta name="msapplication-TileColor" content="#494f5c"><meta itemprop="name" content="Kinematics">
 <meta itemprop="description" content="The Observation Let&rsquo;s say that, for whatever reason, you decide to stand on a very tall (but totally safe) ladder, drop a ball, and time how long the ball takes to hit the ground. Jotting down this height in meters and time in seconds, you climb to another rung on the ladder and repeat the process a couple of more times. After ten such drops, you&rsquo;ll have a data table that looks something like this (give or take, given your reaction time)"><meta itemprop="datePublished" content="2020-06-01T13:52:47-05:00" />
 <meta itemprop="dateModified" content="2020-06-01T13:52:47-05:00" />
-<meta itemprop="wordCount" content="1045">
+<meta itemprop="wordCount" content="1095">
 <meta itemprop="keywords" content="" /><meta property="og:title" content="Kinematics" />
 <meta property="og:description" content="The Observation Let&rsquo;s say that, for whatever reason, you decide to stand on a very tall (but totally safe) ladder, drop a ball, and time how long the ball takes to hit the ground. Jotting down this height in meters and time in seconds, you climb to another rung on the ladder and repeat the process a couple of more times. After ten such drops, you&rsquo;ll have a data table that looks something like this (give or take, given your reaction time)" />
 <meta property="og:type" content="article" />
@@ -28,7 +28,7 @@
 	<link rel="shortcut icon" href="/favicon.ico">
 
 	<title>Kinematics</title>
-	<link rel="stylesheet" href="https://jcoughlin11.github.io/css/style.min.9c3bb3ffd8c96a9f4bea12004f10ad028424552391f648af246a7e6e3fa11e7b.css" integrity="sha256-nDuz/9jJap9L6hIATxCtAoQkVSOR9kivJGp+bj+hHns=">
+	<link rel="stylesheet" href="https://jcoughlin11.github.io/css/style.min.4d6b683200ff0e67a89b1c823edfa82a6c848362c43db5f86150f1a42cd1723b.css" integrity="sha256-TWtoMgD/DmeomxyCPt+oKmyEg2LEPbX4YVDxpCzRcjs=">
 	
 </head>
 
@@ -119,7 +119,7 @@
 </tbody>
 </table>
 <p>Plotting these data, you get 
-  <img src="/static/physics/kinematics/y_vs_t.png" alt="Drop Height vs. Fall Time">
+  <img src="/static/physics/kinematics/kin_data.png" alt="Drop Height vs. Fall Time">
 
 </p>
 <p>What is this plot telling us? Well, the first thing we notice is that as we increase the height at which we drop the ball, the longer it takes to hit the ground. That makes sense. But, notice that the plot has a slight curve in it. That is, <strong>the amount of time the ball takes to hit the ground does not increase by a constant amount every time we increase the starting height by one meter</strong>.</p>
@@ -156,19 +156,28 @@
 <p>$$ h(t) = \frac{1}{2}a_0 t^2 + v_0 t + h_0 $$</p>
 <p>Cool. Now, how do we get <code>$a_0$</code>? Well, let&rsquo;s use our data. We recorded the initial heights, we measured the times, we know that the final height <code>$h(t)$</code> is just zero, which corresponds to the ground, and we know the ball&rsquo;s initial speed is zero. This tells us that</p>
 <p>$$ a_0 = - \frac{2h_0}{t^2} \approx -9.8 \phantom{a}\mathrm{m/s}^2 $$</p>
+<p>This value is very special, as it turns out to be the strength of the acceleration objects experience near the surface of the Earth and is usually denoted by $g$.</p>
 <h2 id="the-check">The Check</h2>
 <p>The above is all well and good, but the only thing that really matters is whether or not the description we&rsquo;ve come up with matches the oberservations. If it doesn&rsquo;t, then it doesn&rsquo;t matter how elegant or nice the description is. So, let&rsquo;s check it! We&rsquo;ll do this by plotting what our description predicts on top of the plot of our data 
-  <img src="/static/physics/kinematics/prediction.png" alt="Check">
+  <img src="/static/physics/kinematics/kin_pred.png" alt="Check">
 
 </p>
 <p>That is pretty good, if I don&rsquo;t say so myself.</p>
 <h2 id="conclusions">Conclusions</h2>
-<p>So, what have we learned?</p>
+<p>Key ideas:</p>
 <ul>
 <li>Objects fall with a constant acceleration</li>
 <li>The derivative of position with respect to time is speed</li>
 <li>The derivative of speed with respect to time is acceleration</li>
 </ul>
+<p>Key equations:
+$$
+\begin{align}
+h(t) &amp;= h_0 + v_0t - \frac{1}{2} gt^2 \\<br>
+v(t) &amp;= v_0 -gt \\<br>
+a(t) &amp;= -g
+\end{align}
+$$</p>
 
 		</div>
 	</main>
